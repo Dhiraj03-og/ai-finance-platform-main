@@ -3,29 +3,8 @@ import {
   Receipt,
   PieChart,
   CreditCard,
-  Globe,
-  Zap,
 } from "lucide-react";
 
-// Stats Data
-export const statsData = [
-  {
-    value: "50K+",
-    label: "Active Users",
-  },
-  {
-    value: "$2B+",
-    label: "Transactions Tracked",
-  },
-  {
-    value: "99.9%",
-    label: "Uptime",
-  },
-  {
-    value: "4.9/5",
-    label: "User Rating",
-  },
-];
 
 // Features Data
 export const featuresData = [
@@ -42,24 +21,9 @@ export const featuresData = [
       "Extract data automatically from receipts using advanced AI technology",
   },
   {
-    icon: <PieChart className="h-8 w-8 text-blue-600" />,
-    title: "Budget Planning",
-    description: "Create and manage budgets with intelligent recommendations",
-  },
-  {
     icon: <CreditCard className="h-8 w-8 text-blue-600" />,
     title: "Multi-Account Support",
     description: "Manage multiple accounts and credit cards in one place",
-  },
-  {
-    icon: <Globe className="h-8 w-8 text-blue-600" />,
-    title: "Multi-Currency",
-    description: "Support for multiple currencies with real-time conversion",
-  },
-  {
-    icon: <Zap className="h-8 w-8 text-blue-600" />,
-    title: "Automated Insights",
-    description: "Get automated financial insights and recommendations",
   },
 ];
 
@@ -88,24 +52,25 @@ export const howItWorksData = [
 // Testimonials Data
 export const testimonialsData = [
   {
-    name: "Sarah Johnson",
-    role: "Small Business Owner",
-    image: "https://randomuser.me/api/portraits/women/75.jpg",
+    name: "Devendra Thombal",
+    role: "Classmate",
+    image: "https://randomuser.me/api/portraits/men/63.jpg",
     quote:
-      "Welth has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
+      "Welth has made managing my finances so simple. Earlier I used to struggle with spreadsheets, but now everything is sorted in one place. It saves me so much time!",
   },
   {
-    name: "Michael Chen",
-    role: "Freelancer",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    name: "Prathamesh Kamble",
+    role: "Colleague",
+    image: "https://randomuser.me/api/portraits/men/65.jpg",
     quote:
-      "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
+      "Honestly, the receipt scanning feature is a lifesaver. I used to keep piles of bills and forget half of them. Now I just scan and it's done — no tension at all.",
   },
   {
-    name: "Emily Rodriguez",
-    role: "Financial Advisor",
-    image: "https://randomuser.me/api/portraits/women/74.jpg",
+    name: "Himanshu Mahajan",
+    role: "Classmate",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
     quote:
-      "I recommend Welth to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
+      "I always recommend Welth to my clients. The analytics are very detailed, and the multi-currency support is great for anyone dealing with international accounts. It’s very reliable.",
   },
 ];
+
